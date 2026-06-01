@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Image Gallery</title>
+
+  <link rel="stylesheet" href="a.css">
+</head>
+<body>
+
+  <h1 class="title">Responsive Image Gallery</h1>
+
+  <!-- Filter Buttons -->
+  <div class="buttons">
+    <button onclick="filterImages('all')">All</button>
+    <button onclick="filterImages('nature')">Nature</button>
+    <button onclick="filterImages('city')">City</button>
+  </div>
+
+  <!-- Gallery -->
+  <div class="gallery">
+
+    <div class="image nature">
+      <img src="D:\nature1.jpg" alt="">
+    </div>
+
+    <div class="image city">
+      <img src="D:\city1.jpg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature3.jpg" alt="">
+    </div>
+
+    <div class="image city">
+      <img src="D:\city2.jpeg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature5.jpg" alt="">
+    </div>
+
+    <div class="image city">
+      <img src="D:\city3.jpg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature2.jpg" alt="">
+    </div>
+
+    <div class="image city">
+      <img src="D:\city4.jpg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature4.jpeg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature6.jpeg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature7.jpg" alt="">
+    </div>
+
+    <div class="image nature">
+      <img src="D:\nature8.jpg" alt="">
+    </div>
+
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+
+    <span class="close">&times;</span>
+
+    <button class="prev">&#10094;</button>
+
+    <img class="lightbox-img" src="" alt="">
+
+    <button class="next">&#10095;</button>
+
+  </div>
+
+  <script src="a.js"></script>
+
+</body>
+</html>
